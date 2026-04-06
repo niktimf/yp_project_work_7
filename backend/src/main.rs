@@ -21,7 +21,8 @@ use solana_sdk::{
 use tokio::time::interval;
 use tracing::{error, info, warn};
 
-const DEFAULT_PRICE_POLL_INTERVAL_SEC: u64 = 600; // 10 minutes; live price from Binance when MOCK_PRICE is not set
+// 10 minutes; live price from Binance when MOCK_PRICE is not set
+const DEFAULT_PRICE_POLL_INTERVAL_SEC: u64 = 600;
 
 #[derive(Clone)]
 struct Config {
