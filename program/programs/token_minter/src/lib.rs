@@ -13,7 +13,7 @@ use sol_usd_oracle::{state::OracleState, PRICE_DECIMALS};
 pub const USD_DECIMALS: u8 = 6;
 pub const LAMPORTS_PER_SOL_U64: u64 = 1_000_000_000;
 
-declare_id!("E5erGzaxgCwHqH7RjLXLGWziXj8CXpyN7zW6BRodfFnE");
+declare_id!("7g7we81k5CS7aUcdtHskv91E8js2DxjXdXkKHyk4cBk2");
 
 #[program]
 pub mod token_minter {
