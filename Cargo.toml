@@ -1,6 +1,3 @@
-[package]
-name = "yp_project_work_7"
-version = "0.1.0"
-edition = "2024"
-
-[dependencies]
+[workspace]
+members = ["backend"]
+resolver = "2"
