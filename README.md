@@ -124,6 +124,19 @@
 - `mint_token` падает, если `price == 0` или fee/supply
   некорректны.
 
+## Devnet — адреса контрактов и транзакции
+
+| Компонент | Адрес |
+|-----------|-------|
+| Oracle (sol_usd_oracle) | `2vXDijWwzeEQqCeNhB3qPhTxQ8mgsNFQGLbGrXnUn49j` |
+| Launchpad (token_minter) | `7g7we81k5CS7aUcdtHskv91E8js2DxjXdXkKHyk4cBk2` |
+| Oracle PDA (oracle_state) | `Gng4v67H8Twnwoqm2CvdeuMw3KFpSSjYBeWisxDdPnbT` |
+
+Успешные транзакции создания токенов в Devnet:
+
+1. **SOLYARA (SLR)** — [34ZBfHjGQwQmBA3X...hA3KZxLmQr6NpFxD](https://explorer.solana.com/tx/34ZBfHjGQwQmBA3XyLhCUALEf7oUuZVPiFKw8Xh4drHDhZQekjEfjf84jKUyf1VeVGgaQ4XQhA3KZxLmQr6NpFxD?cluster=devnet)
+2. **SOLENOID (SLD)** — [3vuodYQkUKokuPQY...foasa2bFVZmiK](https://explorer.solana.com/tx/3vuodYQkUKokuPQYbQ1FPAoya9nvQCA2t9agycGavfySzMVn8niCmLZngf7T2mZe5XDCxaD5Rhgfoasa2bFVZmiK?cluster=devnet)
+
 ---
 
 ## Порядок запуска (локально)
